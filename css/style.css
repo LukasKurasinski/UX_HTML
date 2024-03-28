@@ -4,9 +4,9 @@
     border-style: solid;
 }
 
-:root{ --color-dominant: #2F3E46; } ​
+:root{ --color-list-background: rgba(132, 54, 201, 0.517); } ​
 ​
-.nav-item{ color: var(--color-highlight); }
+
 
 p {
     background-color: cornflowerblue;
@@ -14,7 +14,6 @@ p {
 
 #my_article{
     background-color: aquamarine;
-     
     color: blue;
 }
 
@@ -24,7 +23,7 @@ p {
     border-style: solid;
 }
 
-
+#with_color_var { background-color: var(--color-list-background); }
 
 
 
